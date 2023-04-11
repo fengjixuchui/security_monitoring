@@ -62,6 +62,7 @@ sources:
           - 7031
           - 7032
           - 7034
+          - 7036 # a service has entered a stopped state
           - 7045
       - name: Application
         onlyEventIDs:
@@ -92,6 +93,8 @@ sources:
           - 5377 # 5377: Credential Manager credentials were restored from a backup https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=5377
           - 4625 # 4625: An account failed to log on https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4625
           - 4634 # 4634: An account was logged off https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4634
+          - 4656 # 4656: A Handle on an object was requested https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4656
+          - 4660 # 4660: An object was deleted https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4660
           - 4663 # 4663: An attempt was made to access an object https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4663        
           - 4672 # 4672: Special privileges assigned to new logon https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4672
           - 4720 # 4720: A user account was created https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4720
@@ -153,6 +156,7 @@ sources:
           - 5136 # 5136: A directory service object was modified https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=5136
           - 5139 # 5139: A directory service object was moved https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=5139
           - 5138 # 5138: A directory service object was undeleted https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=5138
+          - 5156 # 5156: The Windows Filtering Platform has allowed a connection://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=5156          
           - 5038 # 5038: integrity determined that the image hash of a file is not valid https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=5038
           - 6281 # 6281: Code Integrity determined that the page hashes of an image file are not valid https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=6281
           - 4657 # 4657: A registry value was modified https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4657
